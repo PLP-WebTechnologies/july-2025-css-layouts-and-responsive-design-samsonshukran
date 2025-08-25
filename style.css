@@ -1,0 +1,175 @@
+body {
+    background-color: #ec9f40;
+    font-size: medium;
+    margin: auto;
+    
+}
+
+.nav {
+    background-color:hsl(240, 74%, 38%) ;
+    width: 400px;
+    height: 30px;
+    margin: 30px;
+    border: 10px;
+    padding: 5px;
+    justify-content: center;
+    display: flex;
+    justify-self: right;
+}
+
+nav a {
+    background-color:greenyellow;
+    color: hsl(250, 90%, 4%);
+    display:inline-block;
+    padding: 4px;
+    border-radius: 50px;
+    border: 10px;
+    margin: 3px;
+ 
+   
+
+}
+
+.nav a:hover {
+    background-color: white;
+    color: red;
+    transition: cubic-bezier(0.39, 0.575, 0.565, 1);
+    transition: 2s;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    gap: 20px;
+    cursor: pointer;
+    flex-direction:row;
+    
+
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+
+
+}
+h2 {
+    color: white;
+    text-align: center;
+    
+}
+.card-1 {
+    background-color: rgb(21, 100, 173);
+    width: 400px;
+    border-radius: 10px;
+}
+
+.card-1:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    
+}
+
+.card-2 {
+    background-color: rgb(21, 100, 173);
+    width: 400px;
+    border-radius: 10px;
+}
+
+.card-2:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.card-3 {
+    background-color: rgb(21, 100, 173);
+    width: 400px;
+    border-radius: 10px;
+}
+
+.card-3:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.contact {
+    background-color: rgb(21, 100, 173);
+    width: 400px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.contact h1 {
+    color: white;
+    text-align: center;
+}
+
+.contact p {
+    color: white;
+    text-align: center;
+    display: block;
+    object-fit: cover;
+
+}
+.contact:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+
+}
+
+.btn {
+    background-color: greenyellow;
+    color: hsl(250, 90%, 4%);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.btn:hover {
+    background-color: white;
+    color: red;
+    transition: cubic-bezier(0.39, 0.575, 0.565, 1);
+    transition: 2s;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: 20px;
+}
+
+.grid-item-1 {
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.grid-item-2 {
+    background-color: lightgreen;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.grid-item-3 {
+    background-color: lightcoral;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.grid-item-1:hover, .grid-item-2:hover, .grid-item-3:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.welcome {
+    color: #a00d0d;
+    text-align: center;
+    margin-top: 20px;
+   
+}
