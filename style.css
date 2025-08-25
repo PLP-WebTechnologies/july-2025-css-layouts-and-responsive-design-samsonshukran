@@ -38,14 +38,41 @@ nav a {
 }
 
 .container {
-    display: flex;
-    justify-content: space-around;
+   
     margin: 20px;
-    gap: 20px;
     cursor: pointer;
-    flex-direction:row;
-    
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    border: 20px solid transparent;
+    padding: 20px;
 
+
+}
+
+@media (max-width: 600px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+.grid {
+    margin: 20px;
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    border: 20px solid transparent;
+    padding: 20px;
+}
+
+@media (max-width: 600px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
 }
 
 h1 {
@@ -137,12 +164,6 @@ h2 {
     transition: 2s;
 }
 
-.grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    margin: 20px;
-}
 
 .grid-item-1 {
     background-color: lightblue;
@@ -173,3 +194,6 @@ h2 {
     margin-top: 20px;
    
 }
+
+
+
